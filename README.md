@@ -41,7 +41,7 @@ Or download ZIP and extract it.
 Step 2: Install Required Libraries
 Open terminal/command prompt in the project folder and run:
 
-pip install requests pyperclip
+## pip install requests pyperclip
 
 Note: tkinter is included with Python by default.
 How to Use
@@ -62,25 +62,28 @@ App checks for new emails every 5 seconds
 When email arrives, it automatically extracts:
 Verification codes → Shows in "VERIFICATION CODE" box
 Verification links → Shows in "VERIFICATION LINKS" box
-5. Verify
+** 5. Verify
 For codes: Copy and paste into the website
 For links: Click LINK 1, LINK 2, etc. to open in browser
 Or click OPEN ALL LINKS to open everything at once
-6. Stop
+** 6. Stop
 Click STOP when done
 Email will be deleted automatically
-Features
-Table
-Copy
-Feature	Description
-🎨 Cyberpunk UI	Neon cyan/purple theme with toggle switch
-📧 Auto Email Gen	Creates @guerrillamailblock.com addresses
-🔢 Code Extraction	Finds 4-6 digit verification codes
-🔗 Link Extraction	Finds verify/confirm/activate links
-🖱️ One-Click Open	Opens links directly in your browser
-📋 Copy Buttons	Quick copy for email and codes
-🌈 Theme Switch	Toggle between cyan and purple
-Troubleshooting
+
+### Features
+
+| Feature                | Description                               |
+| ---------------------- | ----------------------------------------- |
+| 🎨 **Cyberpunk UI**    | Neon cyan/purple theme with toggle switch |
+| 📧 **Auto Email Gen**  | Creates @guerrillamailblock.com addresses |
+| 🔢 **Code Extraction** | Finds 4-6 digit verification codes        |
+| 🔗 **Link Extraction** | Finds verify/confirm/activate links       |
+| 🖱️ **One-Click Open** | Opens links directly in your browser      |
+| 📋 **Copy Buttons**    | Quick copy for email and codes            |
+| 🌈 **Theme Switch**    | Toggle between cyan and purple            |
+
+
+### Troubleshooting
 Table
 Copy
 Problem	Solution
@@ -88,7 +91,9 @@ pip not found	Reinstall Python and check "Add to PATH"
 No module named 'tkinter'	Install python3-tk: sudo apt install python3-tk (Linux)
 Links not opening	Check your default browser settings
 App won't start	Make sure you're using Python 3.7+
-How It Works (Simple)
+
+
+### How It Works (Simple)
 plain
 Copy
 You Click RUN
