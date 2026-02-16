@@ -36,3 +36,98 @@ You need **Python 3.7 or higher** installed on your system.
 ```bash
 git clone https://github.com/KingBitow/Guerrilla.git
 cd Guerrilla
+
+Or download ZIP and extract it.
+Step 2: Install Required Libraries
+Open terminal/command prompt in the project folder and run:
+
+pip install requests pyperclip
+
+Note: tkinter is included with Python by default.
+How to Use
+1. Start the Program
+bash
+Copy
+python guerrilla.py
+
+2. Generate Email
+Click the RUN toggle switch
+App generates a temporary email address
+Email appears in the "EMAIL ADDRESS" box
+3. Copy Email
+Click the 📋 button to copy the email
+Paste it into any website signup form
+4. Wait for Verification
+App checks for new emails every 5 seconds
+When email arrives, it automatically extracts:
+Verification codes → Shows in "VERIFICATION CODE" box
+Verification links → Shows in "VERIFICATION LINKS" box
+5. Verify
+For codes: Copy and paste into the website
+For links: Click LINK 1, LINK 2, etc. to open in browser
+Or click OPEN ALL LINKS to open everything at once
+6. Stop
+Click STOP when done
+Email will be deleted automatically
+Features
+Table
+Copy
+Feature	Description
+🎨 Cyberpunk UI	Neon cyan/purple theme with toggle switch
+📧 Auto Email Gen	Creates @guerrillamailblock.com addresses
+🔢 Code Extraction	Finds 4-6 digit verification codes
+🔗 Link Extraction	Finds verify/confirm/activate links
+🖱️ One-Click Open	Opens links directly in your browser
+📋 Copy Buttons	Quick copy for email and codes
+🌈 Theme Switch	Toggle between cyan and purple
+Troubleshooting
+Table
+Copy
+Problem	Solution
+pip not found	Reinstall Python and check "Add to PATH"
+No module named 'tkinter'	Install python3-tk: sudo apt install python3-tk (Linux)
+Links not opening	Check your default browser settings
+App won't start	Make sure you're using Python 3.7+
+How It Works (Simple)
+plain
+Copy
+You Click RUN
+    ↓
+App connects to Guerrilla Mail API
+    ↓
+Creates temporary inbox
+    ↓
+Checks inbox every 5 seconds
+    ↓
+New email arrives
+    ↓
+Scans for: 6-digit codes + verification links
+    ↓
+Displays on dashboard
+    ↓
+You click link → Opens in your browser
+
+
+Disclaimer
+For educational purposes only. Use responsibly and in accordance with the Terms of Service of websites you interact with.
+Made with 💚 by KingBitow
+plain
+Copy
+
+This README is:
+- **Simple** - No technical jargon
+- **Clear** - Step-by-step instructions
+- **Complete** - Covers all operating systems
+- **Visual** - Uses tables and emojis for easy reading
+- **Honest** - Explains exactly what the program does
+
+Want me to adjust anything or add more details?
+
+
+
+
+
+
+
+
+
